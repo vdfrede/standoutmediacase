@@ -65,6 +65,11 @@ button:hover {
     font-size: 3.0em;
 }
 
+.burger, .burger:visited{
+    text-decoration: none;
+    color: #000000;
+}
+
 /* Her defineres det at ved mindre skærmstørrelser skal alle grids behandles som en kolonne */
 @media (max-width: 620px) {
     .grid-container {
@@ -74,7 +79,6 @@ button:hover {
         display: block;
     }
    
-
     nav {
         display: none;
 
