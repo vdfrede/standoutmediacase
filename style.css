@@ -1,5 +1,7 @@
 header {
     display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
     flex-direction: row;
     justify-content: space-between; 
     align-items: center; 
@@ -81,7 +83,10 @@ button:hover {
    
     nav {
         display: none;
-
+    }
+    header {
+        margin-left: 0%;
+        margin-right: 0%;
     }
 }
 
